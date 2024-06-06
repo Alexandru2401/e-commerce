@@ -31,11 +31,16 @@ function Details() {
   return (
     <Container className="d-flex align-items-center justify-content-center flex-column">
       <h2 className="m-2">Details</h2>
-      <Card key={id} className="m-2" style={{ width: "50vw" }}>
+      <Card key={id} className="m-2 w-100" style={{ maxWidth: "600px" }}>
         <Card.Img
           variant="top"
           src={product.image}
-          style={{ height: "300px", width: "auto", margin: "auto" }}
+          style={{
+            height: "300px",
+            width: "auto",
+            margin: "auto",
+            objectFit: "contain",
+          }}
           className="my-4"
         />
         <Card.Body>

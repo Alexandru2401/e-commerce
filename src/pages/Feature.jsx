@@ -16,12 +16,17 @@ function Feature() {
       });
   }, []);
   return (
-    <section className="m-4 d-flex align-items-center flex-column justify-content-center">
+    <section className="m-2 d-flex align-items-center flex-column justify-content-center">
       <h2>Products</h2>
       <Container>
-        <Row className="m-4">
+        <Row className="m-2 justify-content-center">
           {products.slice(0, 6).map((product) => (
-            <Col>
+            <Col
+              xs={12}
+              md={6}
+              lg={4}
+              className="mb-4 d-flex justify-content-center"
+            >
               <ProductCard
                 key={product.id}
                 img={product.image}
