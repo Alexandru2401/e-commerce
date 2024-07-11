@@ -1,4 +1,4 @@
-#E-comm 
+# E-comm 
 E-com represent a real e-commerce website.
 It was build by ussing HTML, CSS, JavaScript, React, ReactBootstrap.
 Here you can see various products from jewelry to clothes. You can see all products, add to favourite, see details about every product and you have a page for payment.
