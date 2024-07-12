@@ -6,7 +6,7 @@ Please note that is not the final form. You can see the features that will be im
 
 
 ## Installation and Setup Instruction
-You can see a live demo here, whitout having to install anything: "https://e-comm-alex.netlify.app". 
+You can see a live demo here, whitout having to install anything: "https://e-comm-alex.netlify.app".
 
 ### To run this project will need to follow these steps:
 1. Clone this repository. You will ned node and npm installed globally on your machine.
@@ -50,8 +50,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### Features
 Next features:
-1. Add different types of filters in products page.
-2. Implement payment method with Stripe.
+1. Implement payment method with Stripe.
 
 ### Send your feedback 
 You can leave me feedback on this project: what you like about the project, that I should change. It will help me a lot. 
